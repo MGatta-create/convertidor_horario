@@ -1,14 +1,34 @@
 {
-  "Chile": "America/Santiago",
-  "Tijuana": "America/Tijuana",
-  "Ciudad de México": "America/Mexico_City",
-  "Cancún": "America/Cancun",
-  "Monterrey": "America/Monterrey",
-  "Guadalajara": "America/Mexico_City",
-  "Hermosillo": "America/Hermosillo",
-  "La Paz (BCS)": "America/Mazatlan",
-  "Madrid (Valencia)": "Europe/Madrid",
-  "Lima": "America/Lima",
-  "Buenos Aires": "America/Argentina/Buenos_Aires",
-  "Bogotá": "America/Bogota"
+  "Chile (Santiago)": "America/Santiago",
+
+  "México – Tijuana (Baja California)": "America/Tijuana",
+  "México – Ciudad de México": "America/Mexico_City",
+  "México – Guadalajara": "America/Mexico_City",
+  "México – Monterrey": "America/Mexico_City",
+  "México – Tabasco (Villahermosa)": "America/Mexico_City",
+  "México – Cancún (Quintana Roo)": "America/Cancun",
+  "México – Hermosillo (Sonora)": "America/Hermosillo",
+  "México – La Paz (Baja California Sur)": "America/Mazatlan",
+  "México – Chihuahua": "America/Chihuahua",
+
+  "Argentina – Buenos Aires": "America/Argentina/Buenos_Aires",
+  "Uruguay – Montevideo": "America/Montevideo",
+  "Paraguay – Asunción": "America/Asuncion",
+  "Brasil – São Paulo": "America/Sao_Paulo",
+  "Brasil – Manaus": "America/Manaus",
+
+  "Perú – Lima": "America/Lima",
+  "Colombia – Bogotá": "America/Bogota",
+  "Ecuador – Quito": "America/Guayaquil",
+  "Bolivia – La Paz": "America/La_Paz",
+  "Venezuela – Caracas": "America/Caracas",
+
+  "España – Valencia": "Europe/Madrid",
+  "España – Madrid": "Europe/Madrid",
+
+  "Estados Unidos – Miami": "America/New_York",
+  "Estados Unidos – Los Ángeles": "America/Los_Angeles",
+
+  "Reino Unido – Londres": "Europe/London"
+
 }
