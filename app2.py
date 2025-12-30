@@ -1,21 +1,13 @@
 import streamlit as st
+import json
+from pathlib import Path
 from datetime import datetime, date, time
 from zoneinfo import ZoneInfo
 
 st.set_page_config(page_title="Convertidor de Horas", layout="centered")
 
-ZONAS = {
-    "Chile": "America/Santiago",
-    "Tijuana": "America/Tijuana",
-    "Valencia": "Europe/Madrid",
-    "CDMX": "America/Mexico_City",
-    "Lima": "America/Lima",
-    "Buenos Aires": "America/Argentina/Buenos_Aires",
-    "Bogotá": "America/Bogota",
-    "Miami": "America/New_York",
-    "Londres": "Europe/London",
-    "Tokio": "Asia/Tokyo",
-}
+ZONAS_PATH = Path(__file__).parent / "zonas.json"
+ZONAS = json.loads(ZONAS_PATH.read_text(encoding="utf-8"))
 
 st.title("🕒 Convertidor de horas")
 st.caption("Convierte una hora local a otros lugares del mundo.")
@@ -72,3 +64,4 @@ if st.button("Convertir", type="primary", use_container_width=True):
         for r in resultados:
             texto.append(f"{r['Lugar']}: {r['Fecha']} {r['Hora']}")
         st.text_area("Copiar / pegar", value="\n".join(texto), height=120)
+
